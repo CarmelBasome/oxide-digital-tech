@@ -8,10 +8,7 @@
     color: #002;
 }
 
-li:hover {
-    color: darkorange;
-    text-decoration: none;
-}
+
 
 .contact {
     border-radius: 50px;
