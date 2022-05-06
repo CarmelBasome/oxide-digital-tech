@@ -260,3 +260,26 @@ div5-h3 {
     margin-left: 6rem;
     float: left;
 }
+
+.footer-float {
+    float: right;
+}
+
+.footer-button {
+    color: white;
+    font-size: 16px;
+    padding: 0.5rem 3rem;
+    margin-right: 2rem;
+    background-color: #559;
+}
+
+.footer-button:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: #889;
+}
+
+a {
+    color: white;
+    margin-left: 0.8rem;
+}
