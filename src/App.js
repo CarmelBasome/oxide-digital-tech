@@ -8,6 +8,7 @@ import Services from './components/Services';
 import Job from './components/Job';
 
 import {  AppBar, Typography, Card, CardMedia } from '@mui/material';
+import { PhotoCamera } from '@mui/icons-material';
 import { Button } from '@mui/material';
 import Industries from './components/Industries'; 
 import Last_div from './components/Last_div';
@@ -23,7 +24,7 @@ function App() {
         This website uses cookies to unsure you get the best experience on your website. 
         <a href='#'>Learn more</a>
         <div className='footer-float'>
-          <button className='footer-button'>Got it</button>
+          <button desabled className='footer-button'>Got it</button>
         </div>
       </div>
     </AppBar>
