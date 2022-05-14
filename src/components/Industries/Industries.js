@@ -1,3 +1,5 @@
+import './industries.css'
+
 function Industries() {
     return (
         <div className="div7">

@@ -1,0 +1,59 @@
+.div7 {
+    background-color: none;
+}
+
+.div7-h3A {
+    text-align: center;
+    color: #335;
+    font-size: 35px;
+    margin-top: 10rem;
+}
+
+.div7-h3B {
+    text-align: center;
+    color: #335;
+    font-size: 35px;
+    margin-top: 35rem;
+}
+
+.div7-img {
+    width: 3rem;
+    height: 4rem;
+}
+
+.div7-box {
+    float: left;
+    width: 14rem;
+    height: 10rem;
+    margin: 1rem;
+    font-size: 25px;
+}
+
+.div7-box:hover {
+    float: left;
+    width: 14rem;
+    height: 10rem;
+    margin: 1rem;
+    box-shadow: -1px 1px 15px;
+    font-size: 25px;
+}
+
+.div7-p {
+    font-size: 22px;
+    text-align: center;
+    color: #335;
+}
+
+.container1 {
+    background-color: none;
+    margin: 2rem 15rem;
+    float: left;
+    text-align: center;
+}
+
+.container2 {
+    background-color: none;
+    margin: 0rem 15rem;
+    float: left;
+    text-align: center;
+}

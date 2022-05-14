@@ -1,3 +1,5 @@
+import './wwwus.css'
+
 function Wwwus() {
     return (
         <div className="div3">

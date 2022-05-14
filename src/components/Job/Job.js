@@ -1,3 +1,5 @@
+import './job.css'
+
 function Job() {
     return( 
           <div className="div6">
