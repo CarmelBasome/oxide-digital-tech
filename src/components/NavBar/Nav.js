@@ -1,3 +1,5 @@
+import "./nav.css"
+
 function Nav() {
     return <div className="div1">
         <img className="logo" src="./logo.png" alt="Logo" />

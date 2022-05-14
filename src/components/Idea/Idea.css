@@ -1,0 +1,23 @@
+.div2 {
+    background-color: none;
+    padding: 6rem 0rem 2rem 0rem;
+}
+
+.idea-svg {
+    width: 25rem;
+    height: 25rem;
+    float: right;
+    margin-right: 22.5rem;
+    padding-top: 5rem;
+}
+
+.idea-h2 {
+    color: darkorange;
+    padding: 8rem 0rem 1rem 15rem;
+    font-size: 3.5rem;
+}
+
+.idea-p {
+    margin: 0rem 0rem 0rem 15rem;
+    font-size: 23px;
+}

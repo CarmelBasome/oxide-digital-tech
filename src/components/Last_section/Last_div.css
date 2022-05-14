@@ -1,0 +1,31 @@
+.last-div {
+    background-color: #336;
+    text-align: left;
+    padding: 3rem 0rem 20rem 0rem;
+    color: white;
+    margin-top: 5rem;
+}
+
+.last-div-marg {
+    margin: 2rem 1rem 2rem 8.7rem;
+}
+.last-div-head {
+    color: darkorange;
+    font-size: 17px;
+}
+
+.logo-white {
+    width: 7rem;
+    margin-right: 4rem;
+    
+}
+
+.uzza-svg {
+    width: 4rem;
+}
+
+.float-block {      
+   
+    margin-left: 6rem;
+    float: left;
+}

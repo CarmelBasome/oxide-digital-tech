@@ -1,3 +1,5 @@
+import './Business.css'
+
 function Business() {
     return (
         <div className="div4">

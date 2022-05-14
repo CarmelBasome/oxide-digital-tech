@@ -1,0 +1,28 @@
+.div5-p {
+    color: gray;
+    font-size: 21px;
+    padding: 1rem 20rem;
+}
+
+.div5 {
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.float-box {
+    float: left;
+    color: #335;
+    border: 2px white solid;
+    text-align: center;
+    font-size: 16px;
+    width: 15rem;
+    height: 11rem;
+    margin: 3rem 3.5rem;
+    line-height: 17px;
+}
+
+.float-box:hover {
+    text-decoration: underline;
+    color: darkorange;
+    background-color: white;
+}

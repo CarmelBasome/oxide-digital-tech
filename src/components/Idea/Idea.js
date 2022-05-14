@@ -1,3 +1,5 @@
+import './Idea.css'
+
 function Idea() {
     return (
         <div className="div2">

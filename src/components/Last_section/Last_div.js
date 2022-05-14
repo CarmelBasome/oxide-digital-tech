@@ -1,3 +1,5 @@
+import './Last_div.css'
+
 function Last_div() {
     return (
         <div className="last-div">
