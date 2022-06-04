@@ -45,3 +45,8 @@ a {
     color: white;
     margin-left: 0.8rem;
 }
+
+.hook {
+    text-align: center;
+    font-size: 30px;
+}

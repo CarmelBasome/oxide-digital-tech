@@ -1,10 +1,14 @@
+import React from 'react';
+import {  AppBar, Container, NavDropdown } from '@mui/material'
 import "./nav.css"
 
 function Nav() {
-    return <div className="div1">
+    return (
+    
+      <div className="div1">
         <img className="logo" src="./logo.png" alt="Logo" />
         <div className="nav-list">
-        <ul>
+         <ul>
             <li>
                 <link rel="stylesheet" href="" />Home
             </li>
@@ -26,8 +30,10 @@ function Nav() {
             <li>
                 <link rel="stylesheet" href="" />FR
             </li>
-        </ul>
+         </ul>
         </div>
-    </div>
+      </div>        
+    );
+    
 }
 export default Nav;

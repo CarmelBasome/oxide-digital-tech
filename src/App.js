@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Nav from './components/NavBar/Nav';
 import Idea from './components/Idea/Idea';
@@ -20,7 +19,7 @@ function App() {
     </AppBar>
     <Idea />
     <AppBar color='default' className="footer">
-    <div className='footerBackground'>
+      <div className='footerBackground'>
         This website uses cookies to unsure you get the best experience on your website. 
         <a href='#'>Learn more</a>
         <div className='footer-float'>
