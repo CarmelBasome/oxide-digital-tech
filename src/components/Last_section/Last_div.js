@@ -2,8 +2,8 @@ import './Last_div.css'
 
 function Last_div() {
     return (
-        <div className="last-div">
-            <div className="last-div-marg">
+        <section className="last-div">
+            <container className="last-div-marg">
                <img className='logo-white float-block' src="./app-svg/logo-white.png" alt="" />
                <div className="float-block">
                    <h4 className="last-div-head">Services</h4>
@@ -26,8 +26,8 @@ function Last_div() {
                    <h4 className="last-div-head">Patners and Sponsors</h4>
                    <img className='uzza-svg' src="./app-svg/Uzza.png" alt="" />
                </div>
-            </div>
-        </div>
+            </container>
+        </section>
     )
 }
 export default Last_div; 
