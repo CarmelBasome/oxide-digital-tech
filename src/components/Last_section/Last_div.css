@@ -1,7 +1,7 @@
 .last-div {
     background-color: #336;
     text-align: left;
-    padding: 3rem 0rem 20rem 0rem;
+    padding: 3rem 0rem 18rem 0rem;
     color: white;
     margin-top: 5rem;
 }
@@ -16,8 +16,8 @@
 
 .logo-white {
     width: 7rem;
-    margin-right: 4rem;
-    
+    padding-right: 5rem;
+    margin-left: 12.7rem;
 }
 
 .uzza-svg {
@@ -26,6 +26,6 @@
 
 .float-block {      
    
-    margin-left: 6rem;
+    margin-right: 2.9em;
     float: left;
 }

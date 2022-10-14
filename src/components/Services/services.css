@@ -9,17 +9,20 @@
     background-color: #f1f1f1;
 }
 
+.mainMargin {
+    padding: 0px 0rem 1rem 13rem;
+}
+
 .float-box {
     float: left;
     color: #335;
     border: 2px white solid;
     text-align: center;
     font-size: 16px;
-    width: 15rem;
-    height: 11rem;
-    margin: 3rem 3.5rem;
-    line-height: 17px;
-}
+    width: 16rem;
+    height: 12rem;
+    margin: 3rem 1.7rem;
+    }
 
 .float-box:hover {
     text-decoration: underline;
