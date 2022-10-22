@@ -29,3 +29,36 @@
     margin-right: 2.9em;
     float: left;
 }
+
+@media screen and (max-width: 1000px) {
+    .last-div {
+        background-color: #336;
+        text-align: left;
+        padding: 3rem 0rem 18rem 0rem;
+        color: white;
+        margin-top: 5rem;
+    }
+    
+    .last-div-marg {
+        margin: 2rem 1rem 2rem 8.7rem;
+        text-align: center;
+    }
+    .last-div-head {
+        color: darkorange;
+        font-size: 17px;
+    }
+    
+    .logo-white {
+        width: 7rem;
+        padding-right: auto;
+        margin-left: auto;
+    }
+    
+    .uzza-svg {
+        width: 4rem;
+    }
+    .float-block {      
+        margin-right: auto;
+        float: none;
+    }
+}

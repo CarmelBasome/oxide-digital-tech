@@ -11,7 +11,7 @@ function Business() {
                 full control over all of the business operations that help you to manage well your
                 employees and to better understand your client's needs.
             </p>
-            <p className="more">LEARN MORE</p>
+            <button className="more-btn">LEARN MORE</button>
         </div>
     );
 }

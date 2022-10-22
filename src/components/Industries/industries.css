@@ -1,8 +1,10 @@
 .div7 {
+    clear: left;
+    text-align: center;
     background-color: none;
 }
 
-.div7-h3A {
+.indust-title {
     text-align: center;
     color: #335;
     font-size: 35px;

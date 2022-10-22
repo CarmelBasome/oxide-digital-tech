@@ -1,23 +1,83 @@
-.div2 {
-    background-color: none;
-    padding: 6rem 0rem 2rem 0rem;
+.idea-section{
+    background-color: beige;
 }
-
+.left-float{
+    float: left;
+    margin: 10rem 0px 2rem 8rem;
+}
 .idea-svg {
-    width: 22rem;
-    height: 22rem;
     float: right;
-    margin-right: 18rem;
-    padding-top: 5rem;
+    width: 27rem;
+    height: 27rem;
+    margin: 8rem 14rem 1rem 0px;
 }
 
 .idea-h2 {
     color: darkorange;
-    padding: 8rem 0rem 1rem 13rem;
-    font-size: 3.5rem;
+    font-size: 4rem;
+    letter-spacing: -2px;
 }
 
 .idea-p {
-    margin: 0rem 0rem 0rem 13rem;
     font-size: 23px;
+    color: gray;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .idea-svg {
+        width: 22rem;
+        margin-right: 13rem;
+    }
+    @media screen and (max-width: 1200px) {
+        .left-float{
+            margin-left: 5.5rem;
+        }
+        .idea-svg {
+            width: 17rem;
+            margin-top: 5rem;
+        }
+        .idea-h2 {
+            color: darkorange;
+            font-size: 3rem;
+        }
+        .idea-p {
+            font-size: 20px;
+        }
+        @media screen and (max-width: 950px){
+            .idea-svg {
+                width: 15rem;
+                margin-right: 6rem;
+            }
+            .left-float{
+                margin-left: 4rem;
+            }
+            @media screen and (max-width: 800px){
+                .idea-section{
+                    text-align: center;
+                    margin: 2rem auto;
+                }
+                .idea-svg {
+                    float: none;
+                    width: 15rem;
+                    margin: 1rem auto;
+                }
+                .left-float{
+                    float: none;
+                    margin-left: 4rem;
+                }
+                .idea-h2 {
+                    color: darkorange;
+                    font-size: 2.5rem;
+                    text-align: center;
+                }
+                
+                .idea-p {
+                    font-size: 20px;
+                    color: gray;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }

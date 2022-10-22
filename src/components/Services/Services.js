@@ -5,8 +5,8 @@ import { servicesData } from "../../data";
 function Services() {
     const [containers, setContainers] = useState(servicesData);
     return <section className='div5'>
-      <h3 className="div5-h3">Services</h3>
-      <p className="div5-p">
+      <h3>Services</h3>
+      <p className="service-p">
        Oxide provides services to small, medium and large companies. Moreover,
        we also develop and invest in viable digital technologies to meet
        marketplace needs and problems.

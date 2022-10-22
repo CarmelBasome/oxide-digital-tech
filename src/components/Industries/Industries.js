@@ -6,7 +6,7 @@ function Industries() {
     const [boxes, setBoxes] = useState(industriesData);
     return <>
     <section className="div7">
-      <h3 className="div7-h3A">Industries</h3>
+      <h3 className="indust-title">Industries</h3>
       <p className="div7-p">We have expetise across multiple industries</p>
       
       <container className='container'>
@@ -25,7 +25,7 @@ function Industries() {
        Tell us what you need and will offer you the best range of services. 
        Also, <br />if you want to be a patener or sponsor, send us a message.
        </p>
-       <p className="more">TALK TO OUR TEAM</p>
+       <button className="more-btn">TALK TO OUR TEAM</button>
     </section>
     </>
 }

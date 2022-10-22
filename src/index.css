@@ -2,24 +2,27 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.more {
+.more-btn {
     border: 1px solid darkorange;
     border-radius: 100px;
-    margin: 0rem 36rem;
-    padding: 8px;
+    padding: 0.7rem 4rem;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
     background-color: #335;
 }
 
-.more:hover {
+.more-btn:hover {
     background-color: darkorange;
 }
 
-
-
 .footer {
     margin-top: 45rem; 
+}
+
+@media screen and (max-width: 700px) {
+    .more-btn {
+        padding: 0.5rem 3rem;
+        font-size: 13px;
+    }
 }
