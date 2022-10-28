@@ -1,8 +1,9 @@
-import { Link } from "@mui/material";
+import { Link, AppBar} from "@mui/material";
 import "./nav.css"
 
 function Nav() {
     return <>
+      <AppBar>
         <main className="nav-center">
            <img className="logo" src="./logo.png" alt="Logo" />
            <section>
@@ -31,6 +32,7 @@ function Nav() {
            </ul>
            </section>
         </main>
+      </AppBar> 
     </>
 }
 export default Nav;

@@ -1,0 +1,12 @@
+.section {
+    place-items: center;
+    margin: auto 13rem;
+    padding: 5rem 0rem;
+    text-align: center;
+}
+.section h3 {
+    text-align: center;
+    color: #335;
+    font-size: 35px;
+    margin-top: 1rem;
+}

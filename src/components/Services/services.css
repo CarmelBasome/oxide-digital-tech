@@ -1,35 +1,41 @@
 .service-p {
     color: gray;
     font-size: 21px;
-    padding: 1rem 20rem;
+    padding: 1rem 15%;
 }
 
 .div5 {
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: white;
 }
 
 .mainMargin {
+    place-items: center;
     text-align: center;
-    padding: 1rem 14rem 1rem 13rem;
+    padding: 1rem 8rem 1rem 8rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .float-box {
     color: #335;
-    border: 2px white solid;
+    border: 2px transparent solid;
     text-align: center;
     font-size: 16px;
     width: 16rem;
     height: 12rem;
     margin: 1rem;
+    padding: 2rem;
     }
 
 .float-box:hover {
+    box-shadow: 1px 1px 2px 5px rgb(221, 210, 210);
     text-decoration: underline;
     color: darkorange;
     background-color: white;
+}
+.h6 {
+    font-weight: 500;
 }
 
 @media screen and (max-width: 1200px) {
@@ -37,11 +43,15 @@
         padding: 2rem 5rem;
         grid-template-columns: repeat(2, 1fr);
     }
+    .service-p {
+        font-size: 19px;
+        padding: 1rem 7rem;
+    }
 }
 @media screen and (max-width: 800px) {
     .service-p {
         font-size: 19px;
-        padding: 1rem 10rem;
+        padding: 1rem 4rem;
     }
     .mainMargin {
         text-align: center;

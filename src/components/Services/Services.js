@@ -18,7 +18,7 @@ function Services() {
           return <container key={id}>
               <div className="float-box">
                  <img className='img-box' src={img} alt={title} /><br />
-                 <span className='h6'><b>{title}</b></span><br />
+                 <span className='h6'>{title}</span><br />
                  <span>{message}</span>
               </div>
           </container>

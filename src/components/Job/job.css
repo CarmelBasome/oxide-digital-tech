@@ -3,6 +3,7 @@
 }
 .cented-elmnt{
     text-align: center;
+    padding-bottom: 5rem;
 }
 .job-title {
     font-size: 35px;
@@ -11,6 +12,11 @@
 }
 .job-p1 {
     font-size: 1.5rem;
+}
+.float-section{
+    display: flex;
+    background-color: #f1f1f1;
+    padding-bottom: 3rem;
 }
 .h6 {
     font-size: 18px;
@@ -27,15 +33,13 @@
     text-align: left;
     font-size: 25px;
     color: darkorange;
+    padding-left: 8rem;
 }
 .div6-p2 {
     letter-spacing: 0px;
     font-size: 20px;
     color: gray;
-}
-.float-section{
-    margin-left: 12.5rem;
-    display: flex;
+    padding-left: 8rem;
 }
 .job-img {
     width: 28rem;
@@ -51,36 +55,30 @@
     border: 3px solid gray;
     border-radius: 5rem;
     background-color: #335;
-    margin: 0px auto;
+    margin: 0px 0px 0px 8rem;
 }
 .div6-link:hover {
     background-color: darkorange;
 }
 
-@media screen and (max-width: 1200px) {
-    .float-section{
-        margin-left: 6rem;
-        display: flex;
+@media screen and (max-width: 1000px) {
+    .job-section * {
+        display: grid;
+        margin: auto;
+        padding: auto;
+        place-items: center;
     }
-    .job-img{
-        float: right;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-width: 800px) {
     .float-section{
-        margin-left: 0rem;
-        display: inline;
+        margin-left: auto;
+        display: grid;
+        place-items: center;
+    }
+    .div6-p2 {
         text-align: center;
-        align-items: center;
-        float: none ;
     }
     .job-img {
-        float: none;
         width: 28rem;
         height: 7Orem;
-        margin: 6rem 12rem 0rem 0rem;
-        clear: left;
+        margin: 2rem 0rem;
     }
 }

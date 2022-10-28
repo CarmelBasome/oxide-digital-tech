@@ -6,15 +6,11 @@
     float: left;
     padding: 1rem 2rem 0rem 8rem;
 }
-.nav-list {
+.nav-list {    font-weight: 500;
     float: right;
     padding: 1rem 8rem 1rem 0rem;
     letter-spacing: 1.5px;
     color: #002;
-}
-li:hover {
-    color: darkorange;
-    text-decoration: none;
 }
 .contact {
     border-radius: 50px;
@@ -28,7 +24,7 @@ li:hover {
     background-color: darkorange;
     color: #002;
 }
-li {
+section ul li {
     display: inline;
     margin-left: 1.5rem;
 }
@@ -39,10 +35,6 @@ li {
     }
     .nav-list {
         padding: 0.5rem 8rem 0.5rem 0rem;
-    }
-    li {
-        margin-left: 1.5rem;
-        text-align: left;
     }
     .contact {
         font-size: 13px;
@@ -84,10 +76,6 @@ li {
         grid-template-columns: repeat(2, 1fr);
         padding: 0rem 2rem 0rem 0rem;
         float: right;
-    }
-    li{
-        text-align: left;
-        font-size: 13px;
     }
 }
 }
