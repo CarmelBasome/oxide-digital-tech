@@ -20,6 +20,7 @@ export const servicesData = [
     {
         id: 4,
         img: "./app-svg/de.svg",
+        title: "Data Entry",
         message: "If you want to outsource your data entry operations we deliver that service for you. We have skilled typists with an eye for datail."
     },
     {

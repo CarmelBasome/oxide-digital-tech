@@ -1,4 +1,5 @@
 .div3 {
+    clear: left;
     background-color: none;
     padding: 2rem 0rem 2rem 0rem;
     text-align: center;
@@ -17,4 +18,27 @@ h3 {
     color: gray;
     margin: 0px 15rem;
     padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 1000px){
+    .div3 {
+        background-color: none;
+        padding: 2rem 0rem 2rem 0rem;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 30px;
+        color: #335;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    
+    .div3-p {
+        text-align: center;
+        font-size: 21px;
+        color: gray;
+        margin: 0px 5rem;
+        padding-bottom: 2rem;
+    }
 }

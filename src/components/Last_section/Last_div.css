@@ -1,31 +1,113 @@
 .last-div {
+    display: grid;
     background-color: #336;
-    text-align: left;
-    padding: 3rem 0rem 18rem 0rem;
     color: white;
-    margin-top: 5rem;
+    padding: 3rem 0rem;
 }
-
-.last-div-marg {
-    margin: 2rem 1rem 2rem 8.7rem;
+.logo-white {
+    padding-top: 1.5rem;
+    width: 7rem;
+}
+.containers-section {
+    place-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto 8rem;
+    padding: 2rem 0px 5rem 0px;
 }
 .last-div-head {
     color: darkorange;
-    font-size: 17px;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 3px;
 }
-
-.logo-white {
-    width: 7rem;
-    padding-right: 5rem;
-    margin-left: 12.7rem;
-}
-
 .uzza-svg {
     width: 4rem;
 }
+.float-block {  
+   text-align: left; ;
+   margin-left: auto;  
+}
+.footer-ul li{
+    font-weight: 300;
+    margin: 0px;
+    margin-left: 0px;
+    line-height: 2;
+}
 
-.float-block {      
-   
-    margin-right: 2.9em;
+@media screen and (max-width: 1000px) {
+    .last-div {
+        background-color: #336;
+        text-align: left;
+        padding: 3rem 0rem 18rem 0rem;
+        color: white;
+        margin-top: 5rem;
+    }
+    
+    .last-div-marg {
+        margin: 2rem 1rem 2rem 8.7rem;
+        text-align: center;
+    }
+    .last-div-head {
+        color: darkorange;
+        font-size: 17px;
+    }
+    
+    .logo-white {
+        width: 7rem;
+        padding-right: auto;
+        margin-left: auto;
+    }
+    
+    .uzza-svg {
+        width: 4rem;
+    }
+    .float-block {      
+        margin-right: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    .containers-section {
+        place-items: center;
+        display: block;
+        margin: auto;
+    }
+    .logo-white {
+        display: none;
+    }
+    .float-block {  
+        text-align: center;
+        margin-left: auto;  
+     }
+}
+.downbar{
+    margin-top: 44%;
+}
+
+.kookies{
+    color: white;
+    background-color: #225;
+    padding: 1rem; 
+    place-content: centwr;
+}
+
+.kooky-btn{
+    color: white;
+    background-color: rgb(57, 57, 122);
+    text-align: center;
+    float: right;
+    padding:10px 3rem;
+    display: grid;
+}
+.kooky-btn:hover{
+    background-color: silver;
+}
+.kookies p{
     float: left;
+}
+.kookies a{
+    color: #f1f1f1;
 }

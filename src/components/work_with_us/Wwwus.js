@@ -2,7 +2,7 @@ import './wwwus.css'
 
 function Wwwus() {
     return (
-        <div className="div3">
+        <section className="div3">
             <h3>Why work with us</h3>
             <p className="div3-p">
                 We turn your ideas into software. 
@@ -16,8 +16,8 @@ function Wwwus() {
                 the diverse needs of our clients assist their companies 
                 to prospor and grow by the useof technology. 
             </p>
-            <p className="more">LEARN MORE</p>
-        </div>
+            <button className="more-btn">LEARN MORE</button>
+        </section>
     );
 }
 export default Wwwus;

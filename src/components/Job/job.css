@@ -1,60 +1,84 @@
-.div6 {
+.job-section {
     background-color: none;
 }
-
+.cented-elmnt{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.job-title {
+    font-size: 35px;
+    color: #335;
+    padding-top: 3rem;
+}
+.job-p1 {
+    font-size: 1.5rem;
+}
+.float-section{
+    display: flex;
+    background-color: #f1f1f1;
+    padding-bottom: 3rem;
+}
 .h6 {
     font-size: 18px;
     margin-top: Opx;
 }
-
-.div6-hA {
-    text-align: center;
-    font-size: 35px;
-    color: #335;
-    padding-top: 35rem;
+.job-float-div {
+    float: left;
+    padding-right: auto;
+    width: 28rem;
+    padding: auto 0px 0px 0rem;
 }
-
-.div6-hB {
+.job-flt-title {
+    letter-spacing: 0px;
     text-align: left;
     font-size: 25px;
     color: darkorange;
+    padding-left: 8rem;
 }
-
-.div6-p1 {
-    text-align: center;
-    font-size: 1.5rem;
-}
-.div6-div {
-    background-color: none;
-    width: 28rem;
-    padding: 4rem 0px 0px 13rem;
-}
-
 .div6-p2 {
-    text-align: left;
+    letter-spacing: 0px;
     font-size: 20px;
     color: gray;
+    padding-left: 8rem;
 }
-
-.div6-img {
-    width: 30rem;
-    height: 8Orem;
-    float: right;
+.job-img {
+    width: 28rem;
+    height: 7Orem;
     margin: 6rem 12rem 0rem 0rem;
+    clear: right;
 }
-
-.div6-link {
+.job-start-link {
     color: white;
     font-size: 20px;
     background-color: #335;
-    font-size: 20px;
     text-align: center;
     border: 3px solid gray;
     border-radius: 5rem;
     background-color: #335;
-    margin: 0px 8rem;
+    margin: 0px 0px 0px 8rem;
 }
-
 .div6-link:hover {
     background-color: darkorange;
+}
+
+@media screen and (max-width: 1000px) {
+    .job-section * {
+        display: grid;
+        margin: auto;
+        padding: auto;
+        place-items: center;
+    }
+    .float-section{
+        margin-left: auto;
+        display: grid;
+        place-items: center;
+    }
+    .div6-p2 {
+        text-align: center;
+    }
+    .job-img {
+        width: 28rem;
+        height: 7Orem;
+        margin: 2rem 0rem;
+    }
 }
